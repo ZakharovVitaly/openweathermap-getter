@@ -6,9 +6,8 @@ OPENWEATHER_API_KEY
 CITY_NAME
 
 Example:
-export OPENWEATHER_API_KEY="xxxxxxxxxxxx"
-export CITY_NAME="Moscow"
+export OPENWEATHER_API_KEY="xxxxxxxxxxxx" && export CITY_NAME="Moscow"
 
 ./getweather.py
 
-source=openweathermap, city="Moscow", description="few clouds", temp=10.2, humidity=75
+source=openweathermap, city="Moscow", description="few clouds", temp=-10.2, humidity=75
