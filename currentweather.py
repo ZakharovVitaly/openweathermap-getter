@@ -7,7 +7,7 @@ def celsius(kelvin):
     return kelvin-273.15
 
 def fahrenheit(kelvin):
-    return (9/5)*(kelvin-273.15) + 32
+    return (9/5)*(kelvin-273.15)+32
 
 if __name__ == "__main__":
 
